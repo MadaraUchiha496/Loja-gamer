@@ -1,0 +1,12 @@
+            <div><input type="button" name="botao" id="entrar" value="Entrar" (click)="receberDados()"></div>
+            <div><button id="cadastrar"><a href="#">Cadastrar-se</a></button></div>
+        </div>
+        <h3>
+            {{userModel.email}} <br>
+            {{userModel.password}} <br>
+            {{mensagem}}
+
+        </h3>
+    </div>
+    <p id="msg-validacao">Dados corretos. Você pode entrar no site!</p>
+    <p id="msg-invalidacao">Dados incorretos. Por favor, insira os dados corretos.</p>
